@@ -1,5 +1,7 @@
 const { Client } = require('pg');
 
+console.log('start script');
+
 const pgclient = new Client({
     host: process.env.POSTGRES_HOST,
     port: process.env.POSTGRES_PORT,
